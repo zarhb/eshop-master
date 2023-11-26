@@ -1,0 +1,21 @@
+.outerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.links{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 12px 0px;
+}
+.text{
+    color: #3f4064;
+    font-size: 12px;
+    font-weight: 500;
+}

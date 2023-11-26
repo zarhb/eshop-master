@@ -1,0 +1,57 @@
+
+// .outerContainer{
+//     display: flex;
+// }
+// .rightContainer{
+//     display: flex;
+//     width: 65%;
+// }
+.yourShoppingCart{
+    display: flex;
+   flex-direction: column;
+   position: relative;
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+    top: 273px;
+    left: 75px;
+}
+.shoppingCartContainer{
+ display: flex;
+ height: 270px;
+}
+.information{
+    display: flex;
+}
+.informationText{
+    display: block;
+    font-size: 12px;
+    color: #81858b;
+    margin: 50px 0px;
+}
+.introBox{
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+.digiPlus{
+  font-size: 13px;
+  color: #b12ba4;
+}
+.free{
+    font-size: 16px;
+    font-weight: 900;
+}
+.text{
+  font-size: 13px;
+  font-weight: 400;
+  color: #23254e;
+}

@@ -1,0 +1,12 @@
+.outerContainer{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.informationBox{
+    flex-grow: 1;
+    //width: 50%;
+    display: block;
+}

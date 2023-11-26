@@ -1,0 +1,85 @@
+.outerContainer {
+  display: flex;
+  direction: rtl;
+  flex-direction: column;
+}
+.menuContainer {
+  display: flex;
+  height: 36px;
+  margin-top: 5px;
+}
+.mainContainer {
+  display: flex;
+  padding: 0 12px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.rightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.logoContainer {
+  display: flex;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 245px;
+}
+.leftContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.link {
+  display: flex;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  padding: 6px 18px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #0c0c0c;
+}
+.logInBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logInBoxIcon {
+  display: flex;
+  margin-left: 8px;
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+.span {
+  display: block;
+  color: #e0e0e2;
+  // height: 30px;
+  width: 1px;
+  margin: 0 25px;
+}
+.cartContainer {
+  display: flex;
+  position: relative;
+}
+.shoppingCartBadge {
+  background-color: #ef4056;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}

@@ -1,0 +1,49 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1676px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  direction: rtl;
+  border-top: 1px solid #bbbcbe;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    height: 30px;
+    margin-left: 16px;
+}
+.contactUs{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 12px;
+    text-align: right;
+}
+.footerPhonenumber{
+  color: #3f4064;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+.text{
+    color: #3f4064;
+    font-size: 13px;
+   font-weight: 500;
+}
+.space{
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #a1a3a8;
+}

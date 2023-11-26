@@ -1,0 +1,42 @@
+.outerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    width: 102px;
+    height: 44px;
+    padding:0 8px;
+    box-shadow:  0px 1px 5px rgba(0,0,0,.2);
+    margin: 1.5em auto;
+  
+}
+.plusContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #ef4056;
+    width: 18px;
+    height: 18px;
+    font-size: 1.5em;
+}
+.minusContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #ef4056;
+    width: 18px;
+    height: 18px;
+    font-size: 2em;
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    color: #ef4056;
+    font-size: 1em;
+}

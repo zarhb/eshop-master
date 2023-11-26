@@ -1,0 +1,31 @@
+.sosialMediaContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.title{
+    color: #3f4064;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+.sosialMediaIcons{
+    display: flex;
+    align-items: center;
+    
+}
+.emailContainer{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 32px;
+  
+}
+.emailBox{
+    display: flex;
+    align-items: center;
+    width: 75%;
+}

@@ -1,0 +1,30 @@
+
+.link{
+  display: flex;
+  align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.outerContainer{
+  display: flex; 
+  justify-content: center;
+  background-color: #ef4056;
+  border-radius: 1em;
+}
+.caruselContainer{
+ width: 85%;
+}
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;  
+    width: 15%;
+}
+.label{
+  display: flex;
+  color: white;
+  align-items:center;
+  justify-content: center;
+}

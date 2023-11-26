@@ -1,0 +1,36 @@
+.nextArrow{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    width: 40px;
+    border: 1px solid #e0e0e2;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.nextSvg{
+    color: #424750;
+    display: block;
+    margin: auto;
+    z-index: 10000;
+    opacity: 0.7;
+}
+.prevArrow{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    width: 40px;
+    border: 1px solid #e0e0e2;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 10000;
+}

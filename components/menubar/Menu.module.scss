@@ -1,0 +1,113 @@
+.menuContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: #fff;
+    flex-wrap: wrap;
+    height: 36px;
+}
+.mainContainer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+    padding:0px 16px;
+    margin: 10px auto;
+}
+.rightMenu{
+    position: relative;
+    display: flex; 
+}
+.categoryMenu{
+    position: relative;
+    display: flex; 
+}
+.span{
+    background-color: #e0e0e2;
+    width: 2px;
+    height: 15px;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+.itemsMenu{
+    position: relative;
+    display: flex; 
+}
+.endMenu{
+    position: relative;
+    display: flex; 
+}
+.leftMenu{
+    position: relative;
+    display: flex;
+}
+.icon{
+    font-weight: bolder;
+    font-size: 15px;
+    color: #424750;
+    width: 20px;
+    height: 20px;
+}
+.text{
+  font-size: 15px;
+  font-weight: 900;
+}
+.items{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0px 10px;
+}
+.items::after {
+    content: "";
+    display: block;
+    box-shadow: none;
+    outline: none 0px !important;
+    position: absolute;
+    background-color: #ef4056;
+    border: 1px solid #ef4056;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+   // width: 100px;
+    height: 4px;
+    right: 12px;
+    top: 47px;
+    transform: translateX(-50%); 
+}
+.items:hover::after{
+   // display: block;
+    width: 100px;
+}
+.link{
+    text-decoration: none;
+    color: #62666d;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.icons{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin:auto 4px;
+    width: 18px;
+    height: 18px;
+    font-weight:bolder;
+    font-size: 15px;
+    color: #a1a3a8; 
+}
+.end{
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    margin:auto 4px;
+}
+.town{
+    color: #3f4064;
+    font-size: 13px;
+    font-weight: 500;
+}

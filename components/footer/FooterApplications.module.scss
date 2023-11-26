@@ -1,0 +1,42 @@
+.outerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    background-color: #3c4b6d;
+    
+}
+.footerLogo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.download{
+    margin-right: 16px;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 2.1;
+    color: #fff;
+}
+.downloadAppsContainer{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.downloadApps{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.appsLogo{
+    text-decoration: none;
+    margin: 8px;
+    width: 142px;
+    display: inline-block;
+    border-radius: 4px;
+}

@@ -1,0 +1,77 @@
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: auto;
+  }
+  .footer{
+   
+    width: 100%;
+    // box-shadow: 0 -1px 1px rgba(0,0,0,.14),0 -2px 2px rgba(0,0,0,.05);
+    padding: 12px 20px;
+  }
+  .footerDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      outline: none;
+      overflow: hidden;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 8px;
+      padding: 6px 20px;
+      font-weight: 700;
+      line-height: 2.17;
+      border: none;
+      background-color: #b12ba4;
+      width: 280px;
+      margin-right: -120px;
+  
+  }
+  .priceDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: -140px
+  }
+  .price{
+    display: flex;
+    align-items: center;
+    color: #23254e;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .priceSvg{
+    display: flex;
+    margin-right: 8px;
+    font-size: 13px;
+    color: #23254e;
+  }
+  .text{
+    color: #62666d;
+    font-size: 14px;
+  }
+  .footerText{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #81858b;
+    margin-top: 8px;
+  }
+  .icon{
+    color: #81858b;
+    font-size: 15px;
+    display: flex;
+    font-weight: bolder;
+    margin-left: 10px;
+  }
